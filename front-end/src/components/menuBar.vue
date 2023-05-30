@@ -7,11 +7,15 @@
             <li>
               <router-link to="/products" :class="activeClass('products')">Products</router-link>
             </li>
-            <li><a href="basket.html">Basket</a></li>
+            <li>
+              <router-link to="/basket" :class="activeClass('basket')">Basket</router-link>
+            </li>
             <li>
               <router-link to="/signup" :class="activeClass('signup')">Sign Up</router-link>
             </li>
-            <li><a href="login.html">Sign In</a></li>
+            <li>
+              <router-link to="/login" :class="activeClass('signin')">Sign In</router-link>
+            </li>
         </ul>
     </header>
 <hr>

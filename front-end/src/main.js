@@ -5,6 +5,8 @@ import * as VueRouter from 'vue-router';
 import homePage from './pages/homePage.vue'
 import productsPage from './pages/productsPage.vue'
 import signupPage from './pages/signupPage.vue'
+import basketPage from './pages/basketPage.vue'
+import signinPage from './pages/signinPage.vue'
 
 createApp(App)
 
@@ -13,7 +15,9 @@ createApp(App)
     routes: [
         { path: '/home', component: homePage },
         { path: '/products', component: productsPage },
-        { path: '/signup', component: signupPage }
+        { path: '/signup', component: signupPage },
+        { path: '/login', component: signinPage },
+        { path: '/basket', component: basketPage }
     ]
 }
 ))
